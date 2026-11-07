@@ -1,0 +1,64 @@
+{
+  "experiment": "generic-teacher-public-mixed",
+  "seed": 42,
+  "split_by": "prompt groups; existing negative split preserved",
+  "components": {
+    "positive": "Official STAR released example_messages.jsonl, 1024 XLAM examples; not full gated XLAM",
+    "negative": "All 6763 official Hammer irrelevance rows"
+  },
+  "splits": {
+    "train": {
+      "rows": 6229,
+      "positive_tool_call_rows": 819,
+      "no_tool_rows": 5410,
+      "max_prompt_tokens": 2146,
+      "unique_model_prompts": 6227
+    },
+    "val": {
+      "rows": 778,
+      "positive_tool_call_rows": 102,
+      "no_tool_rows": 676,
+      "max_prompt_tokens": 1207,
+      "unique_model_prompts": 778
+    },
+    "test": {
+      "rows": 780,
+      "positive_tool_call_rows": 103,
+      "no_tool_rows": 677,
+      "max_prompt_tokens": 1426,
+      "unique_model_prompts": 779
+    }
+  },
+  "model_prompt_overlap_between_splits": 0,
+  "original_full_paper_mixture": false,
+  "mixture_reweighted": false,
+  "status": "completed",
+  "teacher": "local Qwen3-8B",
+  "student": "local Qwen3-0.6B",
+  "checkpoint_policy": "one final per stage, no optimizer snapshots",
+  "ckd_reference_sources": [
+    "data/generic-teacher-hammer/kd_data.jsonl",
+    "data/generic-teacher-public-mixed/positive_kd_data.jsonl"
+  ],
+  "ckd_micro_train_batch": 8,
+  "ckd_micro_rollout_batch": 16,
+  "effective_train_batch": 128,
+  "n_samples_per_prompt": 8,
+  "gpu_indices": [
+    1,
+    2
+  ],
+  "negative_control_completed": true,
+  "ckd_completed_rollout_steps": 48,
+  "positive_teacher_trajectory_rows": 6409,
+  "total_kd_reference_rows": 47994,
+  "completed_utc": "2026-10-11T19:38:33.825861+00:00",
+  "sim_rl_completed_episodes": 3,
+  "sim_rl_completed_accepted_steps": 72,
+  "checkpoint_count": 2,
+  "heldout_rows": 780,
+  "heldout_positive_tool_rows": 103,
+  "heldout_no_tool_rows": 677,
+  "evaluation_summary": "results/generic-teacher-public-mixed-20261011/evaluation-summary.json",
+  "gpu1_gpu2_released": true
+}

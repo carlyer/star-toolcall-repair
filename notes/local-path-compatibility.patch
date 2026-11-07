@@ -1,0 +1,17 @@
+diff --git a/openrlhf/datasets/utils.py b/openrlhf/datasets/utils.py
+index fdf293e..66951f1 100644
+--- a/openrlhf/datasets/utils.py
++++ b/openrlhf/datasets/utils.py
+@@ -36,8 +36,10 @@ def blending_datasets(
+         dataset = dataset.strip()
+         strategy.print(f"dataset: {dataset}")
+ 
+-        data_dir = dataset.split("@")[1].strip() if "@" in dataset else None
+-        dataset = dataset.split("@")[0].strip()
++        data_dir = None
++        # An existing local path may contain @ (e.g. user email); preserve it.
++        if not os.path.exists(dataset) and "@" in dataset:
++            dataset, data_dir = (part.strip() for part in dataset.split("@", 1))
+         dataset_basename = os.path.basename(dataset)
+ 
+         ext = os.path.splitext(dataset)[-1]

@@ -1,0 +1,7 @@
+{
+  "name": "star",
+  "repository": "https://github.com/Qwen-Applications/STAR",
+  "paper": "https://arxiv.org/abs/2602.03022",
+  "commit": "ee3202122bb4af1829709a1a0694c2a8f02310a5",
+  "metrics_reproduced": false
+}

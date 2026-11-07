@@ -1,0 +1,542 @@
+{
+  "scope": "Prospective cleaned ToolACE2500 reference-exact replication of the same unchanged STAR candidate. Not executable success or original-paper metric.",
+  "data_sha256": "7cd055e0000035090c9b6efc63d00c06def2145b71728720cd776d1834f485e4",
+  "preregistered_plan_sha256": "27f20d9df0388cd12b46dcc1469effb425f05680e80a3e94a3491f0a26377450",
+  "source_script_sha256": "9651ec6c089c1fa515c805dadfca1b7c06b4b4a9aecf162cf8c117b3c85b11e5",
+  "rows": 2500,
+  "unique_normalized_requests": 2500,
+  "call": 2000,
+  "no_call": 500,
+  "raw_and_parent": {
+    "raw": {
+      "rows": 2500,
+      "tool_rows": 2000,
+      "no_tool_rows": 500,
+      "tool_exact_match": 0.3415,
+      "no_tool_decision_accuracy": 0.678,
+      "macro_policy_accuracy": 0.50975,
+      "overall_policy_accuracy": 0.4088
+    },
+    "parent": {
+      "rows": 2500,
+      "tool_rows": 2000,
+      "no_tool_rows": 500,
+      "tool_exact_match": 0.358,
+      "no_tool_decision_accuracy": 0.638,
+      "macro_policy_accuracy": 0.498,
+      "overall_policy_accuracy": 0.414
+    }
+  },
+  "per_seed_all_mandatory": {
+    "42": {
+      "parent-reask": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1862,
+          "regressed": 1,
+          "corrected": 1
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1864,
+          "grounding_rejected": 17,
+          "name_or_count_changed": 16,
+          "schema_invalid_refinement": 53,
+          "unsupported_schema_or_refinement": 24
+        }
+      },
+      "identity": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1916
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1916,
+          "schema_invalid_refinement": 53,
+          "grounding_rejected": 2,
+          "unsupported_schema_or_refinement": 2,
+          "name_or_count_changed": 1
+        }
+      },
+      "repair": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.374,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.506,
+        "overall_policy_accuracy": 0.4268,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1672,
+          "corrected": 44,
+          "regressed": 12
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1728,
+          "name_or_count_changed": 68,
+          "grounding_rejected": 110,
+          "schema_invalid_refinement": 56,
+          "unsupported_schema_or_refinement": 12
+        }
+      }
+    },
+    "43": {
+      "parent-reask": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1862,
+          "regressed": 1,
+          "corrected": 1
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1864,
+          "grounding_rejected": 17,
+          "name_or_count_changed": 16,
+          "schema_invalid_refinement": 53,
+          "unsupported_schema_or_refinement": 24
+        }
+      },
+      "identity": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1915
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1915,
+          "schema_invalid_refinement": 53,
+          "grounding_rejected": 2,
+          "unsupported_schema_or_refinement": 2,
+          "name_or_count_changed": 2
+        }
+      },
+      "repair": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.3695,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.50375,
+        "overall_policy_accuracy": 0.4232,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1696,
+          "regressed": 21,
+          "corrected": 44
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1761,
+          "grounding_rejected": 86,
+          "name_or_count_changed": 65,
+          "schema_invalid_refinement": 50,
+          "unsupported_schema_or_refinement": 11,
+          "structured_preservation_rejected": 1
+        }
+      }
+    },
+    "44": {
+      "parent-reask": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1862,
+          "regressed": 1,
+          "corrected": 1
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1864,
+          "grounding_rejected": 17,
+          "name_or_count_changed": 16,
+          "schema_invalid_refinement": 53,
+          "unsupported_schema_or_refinement": 24
+        }
+      },
+      "identity": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.358,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.498,
+        "overall_policy_accuracy": 0.414,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1914
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1914,
+          "schema_invalid_refinement": 53,
+          "name_or_count_changed": 3,
+          "grounding_rejected": 2,
+          "unsupported_schema_or_refinement": 2
+        }
+      },
+      "repair": {
+        "rows": 2500,
+        "tool_rows": 2000,
+        "no_tool_rows": 500,
+        "tool_exact_match": 0.3725,
+        "no_tool_decision_accuracy": 0.638,
+        "macro_policy_accuracy": 0.50525,
+        "overall_policy_accuracy": 0.4256,
+        "change_counts": {
+          "changed_without_accuracy_gain": 1680,
+          "corrected": 43,
+          "regressed": 14
+        },
+        "gate_counts": {
+          "accepted_same_decision_refinement": 1737,
+          "name_or_count_changed": 68,
+          "grounding_rejected": 99,
+          "unsupported_schema_or_refinement": 16,
+          "schema_invalid_refinement": 54
+        }
+      }
+    }
+  },
+  "three_seed_mean_accuracy": {
+    "raw": {
+      "call": 0.3415,
+      "no_call": 0.678,
+      "macro": 0.50975,
+      "overall": 0.4088
+    },
+    "parent": {
+      "call": 0.358,
+      "no_call": 0.638,
+      "macro": 0.498,
+      "overall": 0.414
+    },
+    "self": {
+      "call": 0.358,
+      "no_call": 0.638,
+      "macro": 0.498,
+      "overall": 0.414
+    },
+    "identity": {
+      "call": 0.358,
+      "no_call": 0.638,
+      "macro": 0.498,
+      "overall": 0.414
+    },
+    "repair": {
+      "call": 0.372,
+      "no_call": 0.638,
+      "macro": 0.505,
+      "overall": 0.4252
+    }
+  },
+  "all_contrasts_repair_minus_control": {
+    "parent": {
+      "call": {
+        "delta": 0.014,
+        "paired_unique_request_95_interval": [
+          0.006999999999999999,
+          0.02133333333333333
+        ],
+        "three_primary_simultaneous98.333333_interval": [
+          0.005499999999999999,
+          0.022833333333333327
+        ]
+      },
+      "no_call": {
+        "delta": 0.0,
+        "paired_unique_request_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "delta": 0.007,
+        "paired_unique_request_95_interval": [
+          0.0034999999999999996,
+          0.010666666666666665
+        ]
+      },
+      "overall": {
+        "delta": 0.011200000000000002,
+        "paired_unique_request_95_interval": [
+          0.0056,
+          0.017066666666666664
+        ]
+      }
+    },
+    "self": {
+      "call": {
+        "delta": 0.014,
+        "paired_unique_request_95_interval": [
+          0.007166666666666665,
+          0.021166666666666663
+        ],
+        "three_primary_simultaneous98.333333_interval": [
+          0.005666666666666666,
+          0.022666666666666665
+        ]
+      },
+      "no_call": {
+        "delta": 0.0,
+        "paired_unique_request_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "delta": 0.007,
+        "paired_unique_request_95_interval": [
+          0.0035833333333333325,
+          0.010583333333333332
+        ]
+      },
+      "overall": {
+        "delta": 0.011200000000000002,
+        "paired_unique_request_95_interval": [
+          0.0057333333333333325,
+          0.01693333333333333
+        ]
+      }
+    },
+    "identity": {
+      "call": {
+        "delta": 0.014,
+        "paired_unique_request_95_interval": [
+          0.006999999999999999,
+          0.02133333333333333
+        ],
+        "three_primary_simultaneous98.333333_interval": [
+          0.005499999999999999,
+          0.022833333333333327
+        ]
+      },
+      "no_call": {
+        "delta": 0.0,
+        "paired_unique_request_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "delta": 0.007,
+        "paired_unique_request_95_interval": [
+          0.0034999999999999996,
+          0.010666666666666665
+        ]
+      },
+      "overall": {
+        "delta": 0.011200000000000002,
+        "paired_unique_request_95_interval": [
+          0.0056,
+          0.017066666666666664
+        ]
+      }
+    },
+    "raw": {
+      "call": {
+        "delta": 0.0305,
+        "paired_unique_request_95_interval": [
+          0.01783333333333333,
+          0.043666666666666666
+        ]
+      },
+      "no_call": {
+        "delta": -0.04,
+        "paired_unique_request_95_interval": [
+          -0.076,
+          -0.004
+        ]
+      },
+      "macro": {
+        "delta": -0.004750000000000001,
+        "paired_unique_request_95_interval": [
+          -0.023666666666666666,
+          0.014166666666666664
+        ]
+      },
+      "overall": {
+        "delta": 0.0164,
+        "paired_unique_request_95_interval": [
+          0.003999999999999997,
+          0.029066666666666664
+        ]
+      }
+    }
+  },
+  "broad_primary_confirmation": true,
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 8675309,
+    "unit": "unique normalized request; seeds averaged within row",
+    "primary_call_only": true,
+    "secondary": "Paired class-stratified request bootstrap for no-call/macro/overall; fixed80/20 constructed cohort weights",
+    "percentile_method": "numpy.quantile linear",
+    "per_contrast_interval": 0.95,
+    "three_primary_simultaneous_interval": 0.9833333333333333
+  },
+  "method_deployment_costs": {
+    "parent-reask-42": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 115311,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 17.456745471805334
+    },
+    "identity-42": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 117291,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 23.54005227982998
+    },
+    "repair-42": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 118416,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 29.446105051785707
+    },
+    "parent-reask-43": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 115311,
+      "self_shared_prediction_cache": true,
+      "model_generation_seconds": 17.456745471805334
+    },
+    "identity-43": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 117377,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 24.0804393440485
+    },
+    "repair-43": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 118979,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 23.6916266605258
+    },
+    "parent-reask-44": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 115311,
+      "self_shared_prediction_cache": true,
+      "model_generation_seconds": 17.456745471805334
+    },
+    "identity-44": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 117308,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 23.871628236025572
+    },
+    "repair-44": {
+      "extra_model_queries_per_deployment": 1974,
+      "extra_prompt_tokens": 1356607,
+      "extra_generated_tokens": 120043,
+      "self_shared_prediction_cache": false,
+      "model_generation_seconds": 31.54918146505952
+    }
+  },
+  "base_costs": {
+    "raw": {
+      "queries": 2500,
+      "prompt_tokens": 1218927,
+      "generated_tokens": 699458
+    },
+    "parent": {
+      "queries": 2500,
+      "prompt_tokens": 1218927,
+      "generated_tokens": 565959
+    }
+  },
+  "generation_wall_times": {
+    "raw": 42.72627104446292,
+    "parent_three_passes": [
+      39.94109645113349,
+      40.129697132855654,
+      39.794185150414705
+    ],
+    "stage_total_wall_seconds": [
+      147.1830159574747,
+      120.4307126738131,
+      127.15677922219038
+    ],
+    "interpretation": "Observed wall time includes current scheduling/cache behavior; per-deployment token/query costs remain primary cost comparison"
+  },
+  "consistency_audit_extra_parent_overhead": {
+    "queries": 5000,
+    "prompt_tokens": 2437854,
+    "generated_tokens": 1131918,
+    "not_method_deployment_cost": true
+  },
+  "denominator_audit": {
+    "all2500_rows_retained": true,
+    "invalid_outputs_count_incorrect": true,
+    "all_scores_recomputed_with_unchanged_frozen_rules": true,
+    "all_gate_choices_recomputed_without_GT": true,
+    "parent_no_call_preserved": true,
+    "not3x2000_independent_samples": true,
+    "all_parent_repeat_meaningful_signatures_equal": true,
+    "all_candidate_gates_and_queries_use_seed42_common_parent": true
+  },
+  "parent_repeat_audits_with_rendering_differences": {
+    "42": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    },
+    "43": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    },
+    "44": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    }
+  },
+  "full_changed_and_regressed_trajectories_file": "all-changed-and-regressed-trajectories.json",
+  "cohort_has_now_been_observed": true,
+  "no_seed_or_version_selection": true,
+  "limitations": [
+    "Exact de-duplication does not prove semantic or pretrained isolation",
+    "Reference compatibility including defaults/literals is not an execution oracle",
+    "All changes require grounding case review; schema gate is not factual truth",
+    "Constructed80/20 overall accuracy is not a deployment-prevalence estimate",
+    "Additional parent-repeat validation overhead is separately disclosed"
+  ]
+}

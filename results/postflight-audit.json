@@ -1,0 +1,78 @@
+{
+  "overall_pass": true,
+  "postflight_time_UTC": "2026-10-12T19:27:18.175577+00:00",
+  "supplemental_source_sha256": "e5973b1c144444f325f327fd4b427c6e7081f98ba6585ebb756988dc78e60aa0",
+  "supplemental_source_created_after_driver_launch": true,
+  "no_model_inference_or_training": true,
+  "original108_files_unchanged": true,
+  "rows_per_arm": 2500,
+  "all_actual_input_ids_scores_gate_choices_and_costs_replayed": true,
+  "all_CIs_recalculated_from_saved_binary_outcomes": true,
+  "bootstrap_request_units_not_7500_independent_rows": true,
+  "all_controls_and_seeds_present": true,
+  "candidate_queries_audited_including_cached_self": 17766,
+  "physical_model_requests_independently_counted": 23818,
+  "completion_decode_discrepancies": [],
+  "parent_repeat_disclosures": {
+    "42": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    },
+    "43": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    },
+    "44": {
+      "passed": true,
+      "meaningful_divergences": [],
+      "prose_and_completion_token_differences": [],
+      "common_parent_seed": 42,
+      "common_records_used_for_all_candidate_gates_and_queries": true,
+      "no_favorable_repeat_selection": true
+    }
+  },
+  "raw_comparison": {
+    "call": {
+      "delta": 0.0305,
+      "paired_unique_request_95_interval": [
+        0.01783333333333333,
+        0.043666666666666666
+      ]
+    },
+    "no_call": {
+      "delta": -0.04,
+      "paired_unique_request_95_interval": [
+        -0.076,
+        -0.004
+      ]
+    },
+    "macro": {
+      "delta": -0.004750000000000001,
+      "paired_unique_request_95_interval": [
+        -0.023666666666666666,
+        0.014166666666666664
+      ]
+    },
+    "overall": {
+      "delta": 0.0164,
+      "paired_unique_request_95_interval": [
+        0.003999999999999997,
+        0.029066666666666664
+      ]
+    }
+  },
+  "project_complete_claimed": false,
+  "limitations": [
+    "Saved outputs only; no independent model forward or pretrained semantic leakage proof",
+    "Reference-exact not execution success",
+    "No followup method selection or tuning on this now-observed cohort"
+  ]
+}

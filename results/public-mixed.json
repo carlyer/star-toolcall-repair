@@ -1,0 +1,132 @@
+{
+  "experiment": "generic-teacher-public-mixed",
+  "original_teacher_and_full_data_reproduced": false,
+  "official_paper_benchmark": false,
+  "heldout_rows": 780,
+  "evaluations": {
+    "base": {
+      "experiment": "generic-teacher-public-mixed",
+      "model": "models/Qwen/Qwen3-0.6B",
+      "data": "./star/data/generic-teacher-public-mixed/test.jsonl",
+      "rows": 780,
+      "unique_prompt_groups": 779,
+      "tool_rows": 103,
+      "gold_no_tool_rows": 677,
+      "tool_exact_match": 0.6019417475728155,
+      "no_tool_decision_accuracy": 0.7991137370753324,
+      "macro_policy_accuracy": 0.7005277423240739,
+      "mean_tool_similarity": 0.8074433656957929,
+      "mean_reply_rougeL": 0.27388837457760484,
+      "format_valid_rate": 0.8320512820512821,
+      "mean_similarity": 0.344344995199622,
+      "generation_length_finish_rate": 0.258974358974359,
+      "max_generation_tokens": 512,
+      "temperature": 0,
+      "reply_reference_chat_eos_stripped": true,
+      "independent_prompt_split": true,
+      "original_paper_benchmark": false,
+      "dataset_component": "Released XLAM positive subset + Hammer irrelevance"
+    },
+    "ckd": {
+      "experiment": "generic-teacher-public-mixed",
+      "model": "./star/results/ckd-generic-teacher-public-mixed-20261011/checkpoints",
+      "data": "./star/data/generic-teacher-public-mixed/test.jsonl",
+      "rows": 780,
+      "unique_prompt_groups": 779,
+      "tool_rows": 103,
+      "gold_no_tool_rows": 677,
+      "tool_exact_match": 0.5436893203883495,
+      "no_tool_decision_accuracy": 0.7651403249630724,
+      "macro_policy_accuracy": 0.6544148226757109,
+      "mean_tool_similarity": 0.7199568500539374,
+      "mean_reply_rougeL": 0.25933317491967167,
+      "format_valid_rate": 0.7756410256410257,
+      "mean_similarity": 0.32015912176432476,
+      "generation_length_finish_rate": 0.3076923076923077,
+      "max_generation_tokens": 512,
+      "temperature": 0,
+      "reply_reference_chat_eos_stripped": true,
+      "independent_prompt_split": true,
+      "original_paper_benchmark": false,
+      "dataset_component": "Released XLAM positive subset + Hammer irrelevance"
+    },
+    "sim-rl": {
+      "experiment": "generic-teacher-public-mixed",
+      "model": "./star/results/sim_rl-generic-teacher-public-mixed-20261011/checkpoints",
+      "data": "./star/data/generic-teacher-public-mixed/test.jsonl",
+      "rows": 780,
+      "unique_prompt_groups": 779,
+      "tool_rows": 103,
+      "gold_no_tool_rows": 677,
+      "tool_exact_match": 0.6601941747572816,
+      "no_tool_decision_accuracy": 0.9379615952732644,
+      "macro_policy_accuracy": 0.799077885015273,
+      "mean_tool_similarity": 0.8535791339189398,
+      "mean_reply_rougeL": 0.35655057464774836,
+      "format_valid_rate": 0.9487179487179487,
+      "mean_similarity": 0.42218383311561086,
+      "generation_length_finish_rate": 0.07948717948717948,
+      "max_generation_tokens": 512,
+      "temperature": 0,
+      "reply_reference_chat_eos_stripped": true,
+      "independent_prompt_split": true,
+      "original_paper_benchmark": false,
+      "dataset_component": "Released XLAM positive subset + Hammer irrelevance"
+    }
+  },
+  "comparisons": {
+    "ckd_minus_base": {
+      "tool_exact_match": {
+        "delta": -0.05825242718446602,
+        "paired_bootstrap_95pct_interval": [
+          -0.14563106796116504,
+          0.02912621359223301
+        ],
+        "unique_prompt_groups": 103
+      },
+      "no_tool_decision_accuracy": {
+        "delta": -0.034023668639053255,
+        "paired_bootstrap_95pct_interval": [
+          -0.0650887573964497,
+          -0.0029585798816568047
+        ],
+        "unique_prompt_groups": 676
+      },
+      "macro_policy_accuracy": {
+        "delta": -0.04613804791175964,
+        "paired_bootstrap_95pct_interval": [
+          -0.09130665824093755,
+          -0.000969437582581719
+        ]
+      }
+    },
+    "sim-rl_minus_base": {
+      "tool_exact_match": {
+        "delta": 0.05825242718446602,
+        "paired_bootstrap_95pct_interval": [
+          0.009708737864077669,
+          0.11650485436893204
+        ],
+        "unique_prompt_groups": 103
+      },
+      "no_tool_decision_accuracy": {
+        "delta": 0.1390532544378698,
+        "paired_bootstrap_95pct_interval": [
+          0.11242603550295859,
+          0.16715976331360946
+        ],
+        "unique_prompt_groups": 676
+      },
+      "macro_policy_accuracy": {
+        "delta": 0.09865284081116792,
+        "paired_bootstrap_95pct_interval": [
+          0.06994079249727121,
+          0.12916499109553628
+        ]
+      }
+    }
+  },
+  "bootstrap_seed": 42,
+  "bootstrap_resamples": 10000,
+  "bootstrap_scope": "held-out prompt groups; does not estimate variability across training seeds"
+}

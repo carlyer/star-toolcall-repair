@@ -1,0 +1,27 @@
+{
+  "rows": 590,
+  "parent_correct": 490,
+  "parent_argument_error": 100,
+  "cohort_selection": "Only train IDs, parent parsed calls with gold same tool-name multiset/count, gold passes frozen schema and grounding gate",
+  "factor": "identity-gold draft vs real parent greedy draft, same IDs and gold target",
+  "loss": "uniform sequence-normalized target-token mean",
+  "seed": 42,
+  "steps": 64,
+  "effective_batch": 16,
+  "micro_batch": 4,
+  "lr": 5e-05,
+  "lora_rank": 16,
+  "instruction": "Audit this unexecuted draft against the original request and tool definitions. Keep exactly the same tool names and number of calls. Fix argument errors only when the original request supplies evidence. Preserve user strings exactly: a request to check an email is not permission to correct its spelling. Preserve explicit numeric values, and do not add optional defaults without user evidence. A date may be normalized to the schema format only if its day, month and year are explicitly given. Do not invent missing facts or tool results. If the draft is already supported, copy its arguments. Output ONLY corrected <tool_call> ... </tool_call> blocks.",
+  "sampling": "uniform with replacement, same sequence per paired arms",
+  "file_sha256": {
+    "identity": "079c9ac23016a1d231594b732c1859318e909a6cb710f9e9d6643450d8dee4db",
+    "repair": "66beafe06020cd2c200d7d25d5b791273095dd15c9bca25dc1ba1ddee71cfa34"
+  },
+  "blind_unlocked": false,
+  "date_gate": {
+    "source_sha256": "8349609268c85161f728ce37b939da413799fe4f001592daa818ed92218e841c",
+    "source": "schema_gate_frozen.py",
+    "labels_in_gate": false,
+    "date_anchor": true
+  }
+}

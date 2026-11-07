@@ -1,0 +1,508 @@
+{
+  "scope": "CPU-only posthoc already-seen2500; static comparison exploratory, not preregistered primary or new blind test",
+  "all_scores_recomputed": true,
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 8675309,
+    "units": 2500,
+    "call_units": 2000,
+    "no_call_units": 500,
+    "seeds_averaged_within_unique_user_group": true
+  },
+  "paired_repair_minus_controls": {
+    "raw": {
+      "tool_exact": {
+        "repair_minus_control": 0.0305,
+        "paired_user_group_bootstrap95": [
+          0.017666666666666664,
+          0.043666666666666666
+        ]
+      },
+      "no_call": {
+        "repair_minus_control": -0.04,
+        "paired_user_group_bootstrap95": [
+          -0.076,
+          -0.004
+        ]
+      },
+      "macro": {
+        "repair_minus_control": -0.004750000000000001,
+        "paired_user_group_bootstrap95": [
+          -0.02391666666666667,
+          0.013999999999999995
+        ]
+      },
+      "overall": {
+        "repair_minus_control": 0.0164,
+        "paired_user_group_bootstrap95": [
+          0.0037333333333333316,
+          0.0292
+        ]
+      }
+    },
+    "self-reask": {
+      "tool_exact": {
+        "repair_minus_control": 0.014,
+        "paired_user_group_bootstrap95": [
+          0.007166666666666666,
+          0.021
+        ]
+      },
+      "no_call": {
+        "repair_minus_control": 0.0,
+        "paired_user_group_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "repair_minus_control": 0.007,
+        "paired_user_group_bootstrap95": [
+          0.003583333333333333,
+          0.0105
+        ]
+      },
+      "overall": {
+        "repair_minus_control": 0.011200000000000002,
+        "paired_user_group_bootstrap95": [
+          0.005733333333333333,
+          0.016800000000000002
+        ]
+      }
+    },
+    "parent": {
+      "tool_exact": {
+        "repair_minus_control": 0.014,
+        "paired_user_group_bootstrap95": [
+          0.007166666666666666,
+          0.021166666666666663
+        ]
+      },
+      "no_call": {
+        "repair_minus_control": 0.0,
+        "paired_user_group_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "repair_minus_control": 0.007,
+        "paired_user_group_bootstrap95": [
+          0.003583333333333333,
+          0.010583333333333332
+        ]
+      },
+      "overall": {
+        "repair_minus_control": 0.011200000000000002,
+        "paired_user_group_bootstrap95": [
+          0.005733333333333333,
+          0.01693333333333333
+        ]
+      }
+    },
+    "static-default": {
+      "tool_exact": {
+        "repair_minus_control": 0.0065,
+        "paired_user_group_bootstrap95": [
+          -0.0013374999999999984,
+          0.014666666666666665
+        ]
+      },
+      "no_call": {
+        "repair_minus_control": 0.0,
+        "paired_user_group_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "repair_minus_control": 0.00325,
+        "paired_user_group_bootstrap95": [
+          -0.0006687499999999992,
+          0.007333333333333332
+        ]
+      },
+      "overall": {
+        "repair_minus_control": 0.0052,
+        "paired_user_group_bootstrap95": [
+          -0.001069999999999999,
+          0.011733333333333332
+        ]
+      }
+    },
+    "identity": {
+      "tool_exact": {
+        "repair_minus_control": 0.014,
+        "paired_user_group_bootstrap95": [
+          0.007166666666666666,
+          0.021166666666666663
+        ]
+      },
+      "no_call": {
+        "repair_minus_control": 0.0,
+        "paired_user_group_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "macro": {
+        "repair_minus_control": 0.007,
+        "paired_user_group_bootstrap95": [
+          0.003583333333333333,
+          0.010583333333333332
+        ]
+      },
+      "overall": {
+        "repair_minus_control": 0.011200000000000002,
+        "paired_user_group_bootstrap95": [
+          0.005733333333333333,
+          0.01693333333333333
+        ]
+      }
+    }
+  },
+  "static_metrics": {
+    "rows": 2500,
+    "tool_rows": 2000,
+    "no_tool_rows": 500,
+    "tool_exact_match": 0.3655,
+    "no_tool_decision_accuracy": 0.638,
+    "macro_policy_accuracy": 0.50175,
+    "overall_policy_accuracy": 0.42
+  },
+  "static_changed_rows": 180,
+  "static_corrected_call_ids": [
+    "toolace-prospective-v1-10257",
+    "toolace-prospective-v1-10355",
+    "toolace-prospective-v1-10443",
+    "toolace-prospective-v1-10470",
+    "toolace-prospective-v1-143",
+    "toolace-prospective-v1-1577",
+    "toolace-prospective-v1-159",
+    "toolace-prospective-v1-1660",
+    "toolace-prospective-v1-1950",
+    "toolace-prospective-v1-2153",
+    "toolace-prospective-v1-2556",
+    "toolace-prospective-v1-2661",
+    "toolace-prospective-v1-2871",
+    "toolace-prospective-v1-3271",
+    "toolace-prospective-v1-43",
+    "toolace-prospective-v1-4463",
+    "toolace-prospective-v1-4553",
+    "toolace-prospective-v1-465",
+    "toolace-prospective-v1-4736",
+    "toolace-prospective-v1-4833",
+    "toolace-prospective-v1-4891",
+    "toolace-prospective-v1-5",
+    "toolace-prospective-v1-5418",
+    "toolace-prospective-v1-58",
+    "toolace-prospective-v1-6074",
+    "toolace-prospective-v1-6160",
+    "toolace-prospective-v1-6302",
+    "toolace-prospective-v1-6320",
+    "toolace-prospective-v1-6414",
+    "toolace-prospective-v1-6541",
+    "toolace-prospective-v1-6607",
+    "toolace-prospective-v1-7335",
+    "toolace-prospective-v1-7349",
+    "toolace-prospective-v1-76",
+    "toolace-prospective-v1-79",
+    "toolace-prospective-v1-8576",
+    "toolace-prospective-v1-8616",
+    "toolace-prospective-v1-943",
+    "toolace-prospective-v1-96",
+    "toolace-prospective-v1-9734"
+  ],
+  "static_regressed_call_ids": [
+    "toolace-prospective-v1-10041",
+    "toolace-prospective-v1-2020",
+    "toolace-prospective-v1-229",
+    "toolace-prospective-v1-2885",
+    "toolace-prospective-v1-2945",
+    "toolace-prospective-v1-3116",
+    "toolace-prospective-v1-4484",
+    "toolace-prospective-v1-4596",
+    "toolace-prospective-v1-4645",
+    "toolace-prospective-v1-5189",
+    "toolace-prospective-v1-5455",
+    "toolace-prospective-v1-5711",
+    "toolace-prospective-v1-6181",
+    "toolace-prospective-v1-6258",
+    "toolace-prospective-v1-6577",
+    "toolace-prospective-v1-6651",
+    "toolace-prospective-v1-7188",
+    "toolace-prospective-v1-7350",
+    "toolace-prospective-v1-7435",
+    "toolace-prospective-v1-7474",
+    "toolace-prospective-v1-8279",
+    "toolace-prospective-v1-8939",
+    "toolace-prospective-v1-9723",
+    "toolace-prospective-v1-9754",
+    "toolace-prospective-v1-9912"
+  ],
+  "static_removed_parameters": 306,
+  "static_removed_explicit_user_literal_parameters": 60,
+  "repair_vs_static_perseed": {
+    "42": {
+      "repairs": [
+        "toolace-prospective-v1-8939",
+        "toolace-prospective-v1-1784",
+        "toolace-prospective-v1-2885",
+        "toolace-prospective-v1-4086",
+        "toolace-prospective-v1-7474",
+        "toolace-prospective-v1-5177",
+        "toolace-prospective-v1-29",
+        "toolace-prospective-v1-7975",
+        "toolace-prospective-v1-2432",
+        "toolace-prospective-v1-5457",
+        "toolace-prospective-v1-4596",
+        "toolace-prospective-v1-7350",
+        "toolace-prospective-v1-5455",
+        "toolace-prospective-v1-9912",
+        "toolace-prospective-v1-3756",
+        "toolace-prospective-v1-8860",
+        "toolace-prospective-v1-4449",
+        "toolace-prospective-v1-2020",
+        "toolace-prospective-v1-7472",
+        "toolace-prospective-v1-3535",
+        "toolace-prospective-v1-9723",
+        "toolace-prospective-v1-3116",
+        "toolace-prospective-v1-10041",
+        "toolace-prospective-v1-2945",
+        "toolace-prospective-v1-3176",
+        "toolace-prospective-v1-215",
+        "toolace-prospective-v1-2982",
+        "toolace-prospective-v1-5711",
+        "toolace-prospective-v1-4578",
+        "toolace-prospective-v1-4641",
+        "toolace-prospective-v1-6181",
+        "toolace-prospective-v1-6165",
+        "toolace-prospective-v1-8485",
+        "toolace-prospective-v1-7188",
+        "toolace-prospective-v1-1849",
+        "toolace-prospective-v1-4484",
+        "toolace-prospective-v1-5812",
+        "toolace-prospective-v1-6258",
+        "toolace-prospective-v1-5189",
+        "toolace-prospective-v1-1186",
+        "toolace-prospective-v1-9754",
+        "toolace-prospective-v1-1078",
+        "toolace-prospective-v1-6577",
+        "toolace-prospective-v1-3995",
+        "toolace-prospective-v1-8279"
+      ],
+      "regressions": [
+        "toolace-prospective-v1-6074",
+        "toolace-prospective-v1-1660",
+        "toolace-prospective-v1-7349",
+        "toolace-prospective-v1-8264",
+        "toolace-prospective-v1-79",
+        "toolace-prospective-v1-7985",
+        "toolace-prospective-v1-6541",
+        "toolace-prospective-v1-5",
+        "toolace-prospective-v1-2556",
+        "toolace-prospective-v1-9316",
+        "toolace-prospective-v1-96",
+        "toolace-prospective-v1-465",
+        "toolace-prospective-v1-6302",
+        "toolace-prospective-v1-159",
+        "toolace-prospective-v1-6112",
+        "toolace-prospective-v1-6607",
+        "toolace-prospective-v1-3049",
+        "toolace-prospective-v1-1950",
+        "toolace-prospective-v1-2342",
+        "toolace-prospective-v1-6160",
+        "toolace-prospective-v1-76",
+        "toolace-prospective-v1-58",
+        "toolace-prospective-v1-943",
+        "toolace-prospective-v1-7335",
+        "toolace-prospective-v1-10443",
+        "toolace-prospective-v1-1577",
+        "toolace-prospective-v1-8135",
+        "toolace-prospective-v1-3980"
+      ]
+    },
+    "43": {
+      "repairs": [
+        "toolace-prospective-v1-8939",
+        "toolace-prospective-v1-1784",
+        "toolace-prospective-v1-2885",
+        "toolace-prospective-v1-4086",
+        "toolace-prospective-v1-7474",
+        "toolace-prospective-v1-5177",
+        "toolace-prospective-v1-29",
+        "toolace-prospective-v1-153",
+        "toolace-prospective-v1-7975",
+        "toolace-prospective-v1-2432",
+        "toolace-prospective-v1-4596",
+        "toolace-prospective-v1-9912",
+        "toolace-prospective-v1-3756",
+        "toolace-prospective-v1-8860",
+        "toolace-prospective-v1-3561",
+        "toolace-prospective-v1-351",
+        "toolace-prospective-v1-5691",
+        "toolace-prospective-v1-2020",
+        "toolace-prospective-v1-416",
+        "toolace-prospective-v1-3535",
+        "toolace-prospective-v1-9723",
+        "toolace-prospective-v1-9737",
+        "toolace-prospective-v1-3116",
+        "toolace-prospective-v1-10041",
+        "toolace-prospective-v1-2945",
+        "toolace-prospective-v1-215",
+        "toolace-prospective-v1-5711",
+        "toolace-prospective-v1-6181",
+        "toolace-prospective-v1-6165",
+        "toolace-prospective-v1-8485",
+        "toolace-prospective-v1-7188",
+        "toolace-prospective-v1-1849",
+        "toolace-prospective-v1-7473",
+        "toolace-prospective-v1-5812",
+        "toolace-prospective-v1-4112",
+        "toolace-prospective-v1-6258",
+        "toolace-prospective-v1-1186",
+        "toolace-prospective-v1-4260",
+        "toolace-prospective-v1-9754",
+        "toolace-prospective-v1-1145",
+        "toolace-prospective-v1-1078",
+        "toolace-prospective-v1-6577",
+        "toolace-prospective-v1-3995",
+        "toolace-prospective-v1-8279"
+      ],
+      "regressions": [
+        "toolace-prospective-v1-71",
+        "toolace-prospective-v1-6074",
+        "toolace-prospective-v1-1660",
+        "toolace-prospective-v1-8616",
+        "toolace-prospective-v1-7349",
+        "toolace-prospective-v1-8264",
+        "toolace-prospective-v1-79",
+        "toolace-prospective-v1-7985",
+        "toolace-prospective-v1-6541",
+        "toolace-prospective-v1-4553",
+        "toolace-prospective-v1-5",
+        "toolace-prospective-v1-2556",
+        "toolace-prospective-v1-9316",
+        "toolace-prospective-v1-8170",
+        "toolace-prospective-v1-96",
+        "toolace-prospective-v1-465",
+        "toolace-prospective-v1-10470",
+        "toolace-prospective-v1-6302",
+        "toolace-prospective-v1-159",
+        "toolace-prospective-v1-43",
+        "toolace-prospective-v1-6112",
+        "toolace-prospective-v1-9666",
+        "toolace-prospective-v1-6607",
+        "toolace-prospective-v1-3049",
+        "toolace-prospective-v1-1950",
+        "toolace-prospective-v1-2342",
+        "toolace-prospective-v1-4987",
+        "toolace-prospective-v1-6160",
+        "toolace-prospective-v1-76",
+        "toolace-prospective-v1-10257",
+        "toolace-prospective-v1-7335",
+        "toolace-prospective-v1-10443",
+        "toolace-prospective-v1-4736",
+        "toolace-prospective-v1-8135",
+        "toolace-prospective-v1-352",
+        "toolace-prospective-v1-3980"
+      ]
+    },
+    "44": {
+      "repairs": [
+        "toolace-prospective-v1-8939",
+        "toolace-prospective-v1-1784",
+        "toolace-prospective-v1-2885",
+        "toolace-prospective-v1-4086",
+        "toolace-prospective-v1-7474",
+        "toolace-prospective-v1-5177",
+        "toolace-prospective-v1-29",
+        "toolace-prospective-v1-7975",
+        "toolace-prospective-v1-2432",
+        "toolace-prospective-v1-4596",
+        "toolace-prospective-v1-7350",
+        "toolace-prospective-v1-5455",
+        "toolace-prospective-v1-9912",
+        "toolace-prospective-v1-3756",
+        "toolace-prospective-v1-8860",
+        "toolace-prospective-v1-4449",
+        "toolace-prospective-v1-3561",
+        "toolace-prospective-v1-351",
+        "toolace-prospective-v1-5691",
+        "toolace-prospective-v1-2020",
+        "toolace-prospective-v1-416",
+        "toolace-prospective-v1-3535",
+        "toolace-prospective-v1-9723",
+        "toolace-prospective-v1-3116",
+        "toolace-prospective-v1-10041",
+        "toolace-prospective-v1-2945",
+        "toolace-prospective-v1-3176",
+        "toolace-prospective-v1-215",
+        "toolace-prospective-v1-5711",
+        "toolace-prospective-v1-6181",
+        "toolace-prospective-v1-6165",
+        "toolace-prospective-v1-8485",
+        "toolace-prospective-v1-7188",
+        "toolace-prospective-v1-1849",
+        "toolace-prospective-v1-7473",
+        "toolace-prospective-v1-5812",
+        "toolace-prospective-v1-6258",
+        "toolace-prospective-v1-5189",
+        "toolace-prospective-v1-1186",
+        "toolace-prospective-v1-9754",
+        "toolace-prospective-v1-1145",
+        "toolace-prospective-v1-1078",
+        "toolace-prospective-v1-6577",
+        "toolace-prospective-v1-3995",
+        "toolace-prospective-v1-8279"
+      ],
+      "regressions": [
+        "toolace-prospective-v1-6074",
+        "toolace-prospective-v1-1660",
+        "toolace-prospective-v1-7349",
+        "toolace-prospective-v1-8264",
+        "toolace-prospective-v1-79",
+        "toolace-prospective-v1-7985",
+        "toolace-prospective-v1-6541",
+        "toolace-prospective-v1-5",
+        "toolace-prospective-v1-2556",
+        "toolace-prospective-v1-96",
+        "toolace-prospective-v1-465",
+        "toolace-prospective-v1-6302",
+        "toolace-prospective-v1-159",
+        "toolace-prospective-v1-9666",
+        "toolace-prospective-v1-6607",
+        "toolace-prospective-v1-3049",
+        "toolace-prospective-v1-1950",
+        "toolace-prospective-v1-2342",
+        "toolace-prospective-v1-4987",
+        "toolace-prospective-v1-6160",
+        "toolace-prospective-v1-76",
+        "toolace-prospective-v1-58",
+        "toolace-prospective-v1-943",
+        "toolace-prospective-v1-10257",
+        "toolace-prospective-v1-7335",
+        "toolace-prospective-v1-10443",
+        "toolace-prospective-v1-4736",
+        "toolace-prospective-v1-9058",
+        "toolace-prospective-v1-1577",
+        "toolace-prospective-v1-8135",
+        "toolace-prospective-v1-3980"
+      ]
+    }
+  },
+  "compute": {
+    "static_queries_parent_ratio": 1.0,
+    "static_prefill_parent_ratio": 1.0,
+    "extra_static_model_tokens": 0,
+    "learned_queries_parent_ratio": 1.7896,
+    "learned_prefill_parent_ratio": 2.113,
+    "ratios_from_existing_physical_cost_audit_not_new_generation": true
+  },
+  "limitations": [
+    "Default metadata equality does not prove execution equivalence",
+    "Original static rule can remove explicitly user-specified default",
+    "Targeted reference-exact Call evidence, not general macro/executable gain"
+  ],
+  "source_sha256": "db2da14bb4e7ef9e5d91495cdb3d9f1d3d0c6c007c2d13a761278e625f71ac86"
+}

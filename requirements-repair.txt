@@ -1,0 +1,6 @@
+# STAR repair environment; GPU installation must match the CUDA platform.
+torch==2.8.0
+transformers==4.56.1
+peft==0.18.0
+vllm==0.11.0
+jsonschema==4.25.1
